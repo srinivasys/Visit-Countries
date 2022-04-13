@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #161624;
+  height: 100vh;
+  width: 100%;
+  padding: 20px;
+  font-family: 'Roboto';
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.countries-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid #cbd5e1;
+  width: 90%;
+  border-radius: 10px;
+  margin: 10px;
+  margin-left: 20px;
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+
+.text {
+  color: #ffffff;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 5px;
+  align-self: center;
+}
+
+.visited-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  border: 0;
+  padding: 10px;
+  margin: 5px;
+  margin-left: 30px;
+  max-height: 50vh;
+  overflow-y: scroll;
+}
